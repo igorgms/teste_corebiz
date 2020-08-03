@@ -14,7 +14,6 @@ import Iconphone from "./assets/iconphone.svg";
 import Iconemail from "./assets/iconemail.svg";
 import SmallCorebiz from "./assets/white-logo.svg";
 import Logovtex from "./assets/vtex.svg";
-import Banner from "./assets/banner.png";
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -80,16 +79,10 @@ function App() {
             <div className="img-carousel" alt="banner"></div>
           </div>
           <div className="maskgroup">
-            <div className="banner"></div>
-            <div className="banner2">
               <div className="img-carousel" alt="banner"></div>
-            </div>
           </div>
           <div className="maskgroup">
-            <div className="banner"></div>
-            <div className="banner2">
               <div className="img-carousel" alt="banner"></div>
-            </div>
           </div>
         </Carousel>
       </section>
